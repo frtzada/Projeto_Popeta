@@ -1,0 +1,43 @@
+:root {
+  /* Cores */
+  --primary: #6C63FF;
+  --primary-rgb: 108, 99, 255;
+  --secondary: #FF6584;
+  --background: #FFFFFF;
+  --surface: #F8F9FA;
+  --text: #333333;
+  --text-secondary: #666666;
+  --heading: #212529;
+  --border: #E9ECEF;
+  --error: #FF4B4B;
+  --success: #4CAF50;
+  --warning: #FFC107;
+
+  /* Gradientes */
+  --gradient-primary: linear-gradient(135deg, #6C63FF 0%, #4CAF50 100%);
+  --gradient-secondary: linear-gradient(135deg, #FF6584 0%, #FFC107 100%);
+
+  /* Espaçamentos */
+  --spacing-xs: 4px;
+  --spacing-sm: 8px;
+  --spacing-md: 16px;
+  --spacing-lg: 24px;
+  --spacing-xl: 32px;
+  --spacing-xxl: 48px;
+
+  /* Breakpoints */
+  --mobile: 320px;
+  --tablet: 768px;
+  --desktop: 1024px;
+  --large: 1440px;
+}
+
+/* Tema escuro */
+[data-theme="dark"] {
+  --background: #121212;
+  --surface: #1E1E1E;
+  --text: #FFFFFF;
+  --text-secondary: #B3B3B3;
+  --heading: #FFFFFF;
+  --border: #2D2D2D;
+} 
